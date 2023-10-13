@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
           children: [
             // Background Image
             Image.asset(
-              'images/p.jpeg',
+              'images/aksa.jpeg',
               fit: BoxFit.cover,
               width: double.infinity,
               height: double.infinity,
@@ -36,17 +36,7 @@ class MyApp extends StatelessWidget {
                 children: [
                   const CountryFlag(),
                   const SizedBox(
-                    height: 40,
-                  ),
-                  const Text(
-                    "07/10/2023",
-                    style: TextStyle(
-                      fontSize: 30,
-                      color: Colors.white,
-                    ),
-                  ),
-                  const SizedBox(
-                    height: 40,
+                    height: 150,
                   ),
                   Container(
                     margin: const EdgeInsets.only(
@@ -54,11 +44,11 @@ class MyApp extends StatelessWidget {
                       bottom: 15,
                     ),
                     child: const Text(
-                      "A date that all the next generation will hear about",
+                      "This land will be returned to its rightful owners. This land will be returned to its owners after a year or 100 years. We will never forget the injustice that occurred, or the martyrs whose souls were sacrificed for the sake of this land.",
                       style: TextStyle(
                         fontSize: 20,
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
+                        color: Colors.black,
+                        fontWeight: FontWeight.w900,
                       ),
                     ),
                   ),
